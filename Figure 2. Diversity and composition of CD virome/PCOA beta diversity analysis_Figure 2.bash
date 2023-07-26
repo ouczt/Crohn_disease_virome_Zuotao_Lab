@@ -1,6 +1,6 @@
 #PCOA beta diversity analysis
 #otu
-setwd('C:/Users/86925/Desktop/Mucosal virus_CD&HC/...')
+setwd('C:/Desktop/Mucosal virus_CD&HC/...')
 otu = read.table("virus.txt", header=T,row.names = 1, sep="\t", comment.char="") #载入otu表格
 
 #metadata
